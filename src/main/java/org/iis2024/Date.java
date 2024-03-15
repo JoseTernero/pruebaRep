@@ -20,6 +20,8 @@ public class Date {
   private final int month;
   private final int year;
 
+
+
   private final int futbolin;
   public void restart (){
     System.out.println("0/0/0");
@@ -59,10 +61,11 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
+// Constructor modified by the collaborator
+  public Date(int tag, int monat, int jahr) {
+    this.day = tag;
+    this.month = monat;
+    this.year = jahr;
   }
 
   /**
